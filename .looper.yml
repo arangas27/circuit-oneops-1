@@ -4,6 +4,7 @@ tools:
 flows:
   default:
     - echo " Hello Looper!"
-    - shell: mvn clean install
+    - ls -lrta
+    #- shell: mvn clean install
   pr:
     call: default
