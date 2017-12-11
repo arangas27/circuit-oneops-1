@@ -3,6 +3,7 @@ tools:
   maven: 3.5.0
 flows:
   default:
+    - echo " Hello Looper!"
     - shell: mvn clean install
   pr:
     call: default
